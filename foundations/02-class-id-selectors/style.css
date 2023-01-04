@@ -1,5 +1,25 @@
+/* All odd numbered elts */
 p {
     background-color: lightcoral;
     font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
+
+/* Second element */
+#blue {
+    color: blue;
+    font-size: 36px;
+}
+
+/* Fourth element */
+#green {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+/* Third and fourth element */
+.largerfontsize {
+    font-size: 24px;
+}
+
+
 
