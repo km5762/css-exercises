@@ -2,8 +2,9 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content:space-between;
+  padding: 8px;
 }
 
 .logo {
@@ -20,6 +21,9 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -29,5 +33,4 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
-
 
