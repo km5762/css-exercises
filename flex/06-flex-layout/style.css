@@ -36,11 +36,23 @@ input {
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  padding: 8px;
 }
 
 .footer {
   justify-self: end;
   margin-top: auto;
+}
+
+.left-links, .right-links {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
 }
 
 
