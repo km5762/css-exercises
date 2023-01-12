@@ -28,6 +28,9 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
 }
 
 .content {
@@ -37,4 +40,14 @@ body {
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 32px;
 }
+
+/* .rightcards, .leftcards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+} */
