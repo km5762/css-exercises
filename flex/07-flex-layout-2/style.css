@@ -7,9 +7,14 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-weight: 900px;
+  font-size: 32px;
+  padding-left: 16px;
 }
 
 .footer {
@@ -17,6 +22,9 @@ body {
   background: #eee;
   color: darkmagenta;
   flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -45,9 +53,7 @@ body {
   gap: 32px;
 }
 
-/* .rightcards, .leftcards {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-} */
+ul a {
+  text-decoration: none;
+  color: #eee;
+}
